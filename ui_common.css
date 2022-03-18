@@ -1,0 +1,42 @@
+.header {
+  background-color: #82b1ff;
+  height: 64px;
+  width: 100%;
+  font-size: 20px;
+  font-family: NotoSansRegular;
+}
+
+@font-face {
+  font-family: NotoSansRegular;
+  src: url(font/NotoSans-Regular.ttf);
+}
+
+button {
+  background-color: #2962ff;
+  color: #FFFFFF;
+  height: 64px;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  transition: 0.32s;
+  font-family: NotoSansRegular;
+  margin-bottom: 8px;
+  box-shadow: 0px 4px #2962ff41;
+}
+
+button:hover {
+  background-color: #768fff;
+  opacity: 1;
+  font-size: 20px;
+}
+
+.content_panel {
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 8px;
+}
+
+.base_screen {
+  padding: 0px;
+  margin: 0px;
+}
